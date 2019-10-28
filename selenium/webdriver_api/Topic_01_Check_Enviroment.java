@@ -51,10 +51,11 @@ public class Topic_01_Check_Enviroment {
   @Test
 	public void TC_03_LoginFormDisplayed() {
 		// Verify login form được hiển thị ở trang Login
-		Assert.assertTrue(driver.findElement(By.xpath("//form[@name='frmLogin']")).isDisplayed());
+		Assert.assertFalse(driver.findElement(By.xpath("//form[@name='frmLogin']")).isDisplayed());
 	}
   @AfterTest
   public void afterTest() {
+	  //check commit
 	  driver.quit();
   }
 
