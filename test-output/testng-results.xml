@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37695" started-at="2019-11-04T17:40:14Z" finished-at="2019-11-04T17:40:51Z">
+  <suite name="Default suite" duration-ms="60288" started-at="2019-11-30T15:59:57Z" finished-at="2019-11-30T16:00:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37695" started-at="2019-11-04T17:40:14Z" finished-at="2019-11-04T17:40:51Z">
-      <class name="webdriver_api.Topic_02_Locator">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:webdriver_api.Topic_02_Locator@c39f790]" name="beforeTest" is-config="true" duration-ms="12421" started-at="2019-11-05T00:40:14Z" finished-at="2019-11-05T00:40:26Z">
+    <test name="Default test" duration-ms="60288" started-at="2019-11-30T15:59:57Z" finished-at="2019-11-30T16:00:57Z">
+      <class name="webdriver_api.Topic_06_TextBoxAreaBox">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:webdriver_api.Topic_06_TextBoxAreaBox@591f989e]" name="beforeTest" is-config="true" duration-ms="28990" started-at="2019-11-30T22:59:57Z" finished-at="2019-11-30T23:00:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="TC_01_Locator()[pri:0, instance:webdriver_api.Topic_02_Locator@c39f790]" name="TC_01_Locator" duration-ms="24225" started-at="2019-11-05T00:40:26Z" finished-at="2019-11-05T00:40:50Z">
+        <test-method status="PASS" signature="TC_01_NewCustomer()[pri:0, instance:webdriver_api.Topic_06_TextBoxAreaBox@591f989e]" name="TC_01_NewCustomer" duration-ms="21794" started-at="2019-11-30T23:00:26Z" finished-at="2019-11-30T23:00:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_01_Locator -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:webdriver_api.Topic_02_Locator@c39f790]" name="afterTest" is-config="true" duration-ms="1031" started-at="2019-11-05T00:40:50Z" finished-at="2019-11-05T00:40:51Z">
+        </test-method> <!-- TC_01_NewCustomer -->
+        <test-method status="PASS" signature="TC_02_EditCustomer()[pri:0, instance:webdriver_api.Topic_06_TextBoxAreaBox@591f989e]" name="TC_02_EditCustomer" duration-ms="8276" started-at="2019-11-30T23:00:47Z" finished-at="2019-11-30T23:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_EditCustomer -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:webdriver_api.Topic_06_TextBoxAreaBox@591f989e]" name="afterTest" is-config="true" duration-ms="1206" started-at="2019-11-30T23:00:56Z" finished-at="2019-11-30T23:00:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- webdriver_api.Topic_02_Locator -->
+      </class> <!-- webdriver_api.Topic_06_TextBoxAreaBox -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

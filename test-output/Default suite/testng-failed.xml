@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="webdriver_api.Topic_02_Locator">
+      <class name="webdriver_api.Topic_06_TextBoxAreaBox">
         <methods>
+          <include name="TC_02_EditCustomer"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="TC_01_Locator"/>
         </methods>
-      </class> <!-- webdriver_api.Topic_02_Locator -->
+      </class> <!-- webdriver_api.Topic_06_TextBoxAreaBox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
