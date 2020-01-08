@@ -22,8 +22,8 @@ public class Topic_06_TextBoxAreaBox {
 	/*
 	 * ĐĂNG NHẬP BẰNG ID VÀ MẬT KHẨU NÀY User ID : mngr235443 Password : tEbyvEd
 	 */
-	String userID = "mngr235443";
-	String password = "tEbyvEd";
+	String userID = "mngr238966";
+	String password = "emYmEqe";
 
 	// input in new customer
 	String customerName = "ky bui";
