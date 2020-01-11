@@ -28,9 +28,10 @@ public class Topic_09_UserInteraction {
 
 //		  làm mất cái profile khi get 1 page
 		// capability (config browser)
+		System.setProperty("webdriver.gecko.driver", ".\\libraries\\geckodriver.exe");
 		FirefoxProfile profile = new FirefoxProfile();
 		profile.setPreference("dom.webnofitications.enabled", false);
-		driver = new FirefoxDriver(profile);
+		driver = new FirefoxDriver();
 
 //		System.setProperty("Webdriver.chrome.driver", ".\\libraries\\chromedriver.exe");
 //		driver = new ChromeDriver();

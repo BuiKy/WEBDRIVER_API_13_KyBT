@@ -4,8 +4,6 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
 
 import java.util.concurrent.TimeUnit;
 
@@ -71,14 +69,14 @@ public class Topic_05_WebElement_I {
 
 	@Test
 	public void TC_02_isEnabled() {
-		assertTrue(isElementEnale(emailInput));
-		assertTrue(isElementEnale(ageRadiobuttonUnder18));
-		assertTrue(isElementEnale(educationAreaInput));
-		assertTrue(isElementEnale(job1DropDownList));
-		assertTrue(isElementEnale(interestDev));
-		assertTrue(isElementEnale(slider1Input));
-		assertFalse(isElementEnale(passwordInput));
-		assertFalse(isElementEnale(slider2Input));
+		Assert.assertTrue(isElementEnale(emailInput));
+		Assert.assertTrue(isElementEnale(ageRadiobuttonUnder18));
+		Assert.assertTrue(isElementEnale(educationAreaInput));
+		Assert.assertTrue(isElementEnale(job1DropDownList));
+		Assert.assertTrue(isElementEnale(interestDev));
+		Assert.assertTrue(isElementEnale(slider1Input));
+		Assert.assertFalse(isElementEnale(passwordInput));
+		Assert.assertFalse(isElementEnale(slider2Input));
 
 		if (isElementEnale(emailInput) || isElementEnale(ageRadiobuttonUnder18)) {
 			System.out.println("element is enable");
@@ -97,14 +95,14 @@ public class Topic_05_WebElement_I {
 		clickonElement(interestDev);
 		clickonElement(ageRadiobuttonUnder18);
 
-		assertTrue(isElementSelected(interestDev));
-		assertTrue(isElementSelected(ageRadiobuttonUnder18));
+		Assert.assertTrue(isElementSelected(interestDev));
+		Assert.assertTrue(isElementSelected(ageRadiobuttonUnder18));
 
 		if (isElementSelected(interestDev)) {
 			clickonElement(interestDev);
 		}
 
-		assertFalse(isElementSelected(interestDev));
+		Assert.assertFalse(isElementSelected(interestDev));
 	}
 
 //	Check Element is displayed 
@@ -186,7 +184,7 @@ public class Topic_05_WebElement_I {
 		// kiêm tra một phần tử có được hiển thị ko?
 		WebElement imageHover = driver.findElement(By.xpath("//img[@alt='User Avatar 05']/following-sibling::div/h5"));
 		System.out.println("Check image is display: " + imageHover.isDisplayed());
-		assertFalse(imageHover.isDisplayed());
+		Assert.assertFalse(imageHover.isDisplayed());
 
 		// isEnable, selected... tương tự
 		// work cho cái element là một cái form

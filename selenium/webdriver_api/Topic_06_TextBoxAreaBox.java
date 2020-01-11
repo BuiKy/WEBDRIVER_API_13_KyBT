@@ -3,8 +3,6 @@ package webdriver_api;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 
-import static org.junit.Assert.assertTrue;
-
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
