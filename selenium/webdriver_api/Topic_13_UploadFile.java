@@ -22,11 +22,11 @@ public class Topic_13_UploadFile {
 
 	@BeforeTest
 	public void beforeTest() {
-//		System.setProperty("webdriver.gecko.driver", ".\\libraries\\geckodriver.exe");
-//		driver = new FirefoxDriver();
+		System.setProperty("webdriver.gecko.driver", ".\\libraries\\geckodriver.exe");
+		driver = new FirefoxDriver();
 		
-		System.setProperty("webdriver.chrome.driver", ".\\libraries\\chromedriver.exe");
-		driver = new ChromeDriver();
+//		System.setProperty("webdriver.chrome.driver", ".\\libraries\\chromedriver.exe");
+//		driver = new ChromeDriver();
 		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();

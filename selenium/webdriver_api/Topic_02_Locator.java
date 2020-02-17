@@ -33,8 +33,8 @@ public class Topic_02_Locator {
 		driver.get("http://live.demoguru99.com/index.php/customer/account/login/");
 
 		// ID
-		driver.findElement(By.id("email")).sendKeys("kingandqueen123.qn@gmail.com");
-		driver.findElement(By.id("pass")).sendKeys("123456");
+		driver.findElement(By.id("email")).sendKeys("selenium_11_01@gmail.com");
+		driver.findElement(By.id("pass")).sendKeys("111111");
 
 		//Name 
 		driver.findElement(By.name("send")).click();
@@ -75,7 +75,7 @@ public class Topic_02_Locator {
 		driver.findElement(By.xpath("//a[text()='Advanced Search']")).click();
 
 	}
-	@Test
+	
 	public void TC_02_Dupplicate() throws InterruptedException	 {
 		
 		driver.findElement(By.xpath("//input")).sendKeys("ngu nhu heo vai mai");

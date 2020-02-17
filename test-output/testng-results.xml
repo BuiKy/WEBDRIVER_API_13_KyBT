@@ -1,25 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21141" started-at="2020-01-11T15:16:46Z" finished-at="2020-01-11T15:17:07Z">
+  <suite name="Default suite" duration-ms="71402" started-at="2020-02-15T17:04:14Z" finished-at="2020-02-15T17:05:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21141" started-at="2020-01-11T15:16:46Z" finished-at="2020-01-11T15:17:07Z">
-      <class name="webdriver_api.Topic_13_UploadFile">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:webdriver_api.Topic_13_UploadFile@2471cca7]" name="beforeTest" is-config="true" duration-ms="5872" started-at="2020-01-11T22:16:46Z" finished-at="2020-01-11T22:16:52Z">
+    <test name="Default test" duration-ms="71402" started-at="2020-02-15T17:04:14Z" finished-at="2020-02-15T17:05:26Z">
+      <class name="testng_framework.Part_5_Loop">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testng_framework.Part_5_Loop@71f2a7d5]" name="beforeClass" is-config="true" duration-ms="10392" started-at="2020-02-16T00:04:14Z" finished-at="2020-02-16T00:04:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="TC_01_Sendkeys()[pri:0, instance:webdriver_api.Topic_13_UploadFile@2471cca7]" name="TC_01_Sendkeys" duration-ms="13980" started-at="2020-01-11T22:16:52Z" finished-at="2020-01-11T22:17:06Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC_01_LogintoSystem(java.lang.String, java.lang.String)[pri:0, instance:testng_framework.Part_5_Loop@71f2a7d5]" name="TC_01_LogintoSystem" duration-ms="12851" started-at="2020-02-16T00:04:25Z" data-provider="user_pass" finished-at="2020-02-16T00:04:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium_11_01@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_01_Sendkeys -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:webdriver_api.Topic_13_UploadFile@2471cca7]" name="afterTest" is-config="true" duration-ms="1265" started-at="2020-01-11T22:17:06Z" finished-at="2020-01-11T22:17:07Z">
+        </test-method> <!-- TC_01_LogintoSystem -->
+        <test-method status="PASS" signature="TC_01_LogintoSystem(java.lang.String, java.lang.String)[pri:0, instance:testng_framework.Part_5_Loop@71f2a7d5]" name="TC_01_LogintoSystem" duration-ms="9199" started-at="2020-02-16T00:04:38Z" data-provider="user_pass" finished-at="2020-02-16T00:04:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium_11_02@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- webdriver_api.Topic_13_UploadFile -->
+        </test-method> <!-- TC_01_LogintoSystem -->
+        <test-method status="PASS" signature="TC_01_LogintoSystem(java.lang.String, java.lang.String)[pri:0, instance:testng_framework.Part_5_Loop@71f2a7d5]" name="TC_01_LogintoSystem" duration-ms="9613" started-at="2020-02-16T00:04:47Z" data-provider="user_pass" finished-at="2020-02-16T00:04:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium_11_03@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LogintoSystem -->
+        <test-method status="PASS" signature="TC_01_LogintoSystem(java.lang.String, java.lang.String)[pri:0, instance:testng_framework.Part_5_Loop@71f2a7d5]" name="TC_01_LogintoSystem" duration-ms="9531" started-at="2020-02-16T00:04:56Z" data-provider="user_pass" finished-at="2020-02-16T00:05:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium_11_01@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LogintoSystem -->
+        <test-method status="PASS" signature="TC_01_LogintoSystem(java.lang.String, java.lang.String)[pri:0, instance:testng_framework.Part_5_Loop@71f2a7d5]" name="TC_01_LogintoSystem" duration-ms="9297" started-at="2020-02-16T00:05:06Z" data-provider="user_pass" finished-at="2020-02-16T00:05:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium_11_02@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LogintoSystem -->
+        <test-method status="PASS" signature="TC_01_LogintoSystem(java.lang.String, java.lang.String)[pri:0, instance:testng_framework.Part_5_Loop@71f2a7d5]" name="TC_01_LogintoSystem" duration-ms="9530" started-at="2020-02-16T00:05:15Z" data-provider="user_pass" finished-at="2020-02-16T00:05:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium_11_03@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LogintoSystem -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testng_framework.Part_5_Loop@71f2a7d5]" name="afterClass" is-config="true" duration-ms="974" started-at="2020-02-16T00:05:25Z" finished-at="2020-02-16T00:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testng_framework.Part_5_Loop -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
